@@ -1,0 +1,55 @@
+html{
+    background-color: rgb(227, 230, 236);
+    font-family: 'Barlow Condensed';
+}
+
+body{
+    background-color: rgb(227, 230, 236);
+    width: 75vw;
+    margin: 0 auto;
+    border: 5px dashed rgb(206, 204, 204);
+    border-radius: 60px;
+    padding: 0px 20px 20px 20px;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    height: 15%;
+}
+
+h1{
+    margin: 20px;
+    font-size: 80px;
+    text-align: center;
+}
+
+h3{
+    margin: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+p{
+    margin: 20px;
+    font-size: 20px;
+    text-align: center;  
+}
+p,li{      
+    font-size: 20px;
+    line-height: 2;
+    letter-spacing: 2;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.listHead{
+    text-align: start; 
+    font-weight: bold; 
+}
