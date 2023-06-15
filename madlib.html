@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href= "stylesMe/madlib.css" rel = "stylesheet" type = "text/css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+    <header id="intro" class="center">
+   <h1 >Fun MadLib!</h1>
+   <p> One of my favorite things to do is listen to music so here is a MadLib about music!</p>
+</header>
+<main>
+    <form id = "madlibs-form" name = "madlibs.form" onsubmit = "submitMadLibs(event)">
+        <section id="madlibs-inputs">
+            <div class="input-group">
+                <label for="number">number</label>
+                <input type="text" id="number" name="number" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="adjective_1">adjective</label>
+                <input type="text" id="adjective_1" name="adjective_1" required>
+            </div>
+
+            <div class="input-group">
+                <label for="noun_1">noun</label>
+                <input type="text" id="noun_1" name="noun_1" required>
+            </div>
+
+            <div class="input-group">
+                <label for="noun_2">noun</label>
+                <input type="text" id="noun_2" name="noun_2" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="noun_3">noun</label>
+                <input type="text" id="noun_3" name="noun_3" required>
+            </div>
+
+            <div class="input-group">
+                <label for="adjective_2"> adjective</label>
+                <input type="text" id="adjective_2" name="adjective_2" required>
+            </div>
+
+            <div class="input-group">
+                <label for="noun_4">noun</label>
+                <input type="text" id="noun_4" name="noun_4" required>
+            </div>
+
+            <div class="input-group">
+                <label for="sport_1">sport</label>
+                <input type="text" id="sport_1" name="sport_1" required>
+            </div>
+
+            <div class="input-group">
+                <label for="beverage">beverage</label>
+                <input type="text" id="beverage" name="beverage" required>
+            </div>
+
+            <div class="input-group">
+                <label for="food">food</label>
+                <input type="text" id="food" name="food" required>
+            </div>
+        </section>
+        <section id="madlibs-submit">
+           <button type="submit">Generate</button>
+        </section>
+    </form>
+    <section id = "completed-story" class = "hide"> </section>
+</main>
+</div>
+<script src="./madlib.js"></script>
+</body>
+</html>
